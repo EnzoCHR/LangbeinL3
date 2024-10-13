@@ -1,0 +1,160 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    border: 1px solid;
+    overflow: auto;
+    position: fixed;
+    top:0%;
+    left:-1%;
+    height: 100%;
+    color: white;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.nav a:hover:not(.logo) {
+    background-color: #4b4b4b;
+}
+
+li a {
+    font-family: fantasy;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    display: flex;
+    padding:10px;
+    text-align:center;
+}
+
+li a img {
+    width: 45px;
+    overflow: hidden;
+    margin: auto;
+}
+
+body {
+    background-color: #2c2c2c;
+    color: white;
+    overflow-x: hidden;
+    padding-left: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding-left: 70px;
+    width: 700px;
+}
+
+table {
+    padding-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+td img {
+    width: 400px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+td:nth-child(1){
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+td a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: black;
+    width: 106%;
+    margin-left: -3%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.mainImg {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo:hover{
+    background-color: black;
+}
+
+.aboutImg {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about {
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.logo{
+    width: 100px;
+}
+
+.content img {
+    width: 400px;
+    height: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+}
+
+.content {
+    display: block;
+}
+
+.gallery img:nth-child(2n - 1) {
+    padding-left: 150px;
+}
+
+.search img:nth-child(2n) {
+    padding-left: 150px;
+}
+
+form {
+    text-align: center;
+}
+
+form img {
+    padding-top: 50px;
+}
