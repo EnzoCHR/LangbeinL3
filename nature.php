@@ -2,7 +2,7 @@
 <html lang="en">
 
 <ul class="nav">
-    <li><a href="Index.php" class="logo">
+    <li><a href="Index.html" class="logo">
         <img src="images/logo.png" class="logo" alt="logo">
     </a></li>
     <li><a href="all.php" >All</a> </li>
